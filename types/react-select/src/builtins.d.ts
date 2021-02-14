@@ -7,8 +7,8 @@ export type formatGroupLabel<
 > = (group: GroupType) => ReactNode;
 export function formatGroupLabel(group: GroupTypeBase<any>): ReactNode;
 
-export type getOptionLabel<OptionType extends OptionTypeBase = any> = (option: OptionType) => string;
-export function getOptionLabel(option: any): string;
+export type getOptionLabel<OptionType extends OptionTypeBase = any> = (option: OptionType) => ReactNode;
+export function getOptionLabel(option: any): ReactNode;
 
 export type getOptionValue<OptionType extends OptionTypeBase = any> = (option: OptionType) => string;
 export function getOptionValue(option: any): string;
